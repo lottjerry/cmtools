@@ -4,14 +4,40 @@
   padding: 0;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#till {
+  margin-top: 20px;
+  border: 5px dotted darkgreen;
 }
 
-h1 {
-  color: darkgreen;
-  text-align: center;
+#till #bills {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+#till #bills p {
+  display: inline;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#till #change {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+#till #change p {
+  display: inline;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+#till h3 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#total {
+  margin-top: 20px;
+  border: 5px dotted black;
 }
 /*# sourceMappingURL=main.css.map */

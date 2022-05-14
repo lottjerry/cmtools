@@ -1,13 +1,36 @@
 @import './resets';
 
 $primary-color: darkgreen;
+$secondary-color: black;
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#till {
+  margin-top: 20px;
+  border: 5px dotted $primary-color;
+  #bills {
+    border: 2px solid $secondary-color;
+    margin-top: 10px;
+    p {
+      display: inline;
+      margin-right: 20px;
+      font-size: 18px;
+    }
+  }
+  #change {
+    border: 2px solid $secondary-color;
+    margin-top: 10px;
+    p {
+      display: inline;
+      margin-right: 20px;
+      font-size: 18px;
+    }
+  }
+  h3 {
+    margin-top: 20px;
+    font-weight: bold;
+  }
 }
 
-h1 {
-  color: $primary-color;
+#total {
+  margin-top: 20px;
+  border: 5px dotted black;
 }
